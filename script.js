@@ -7,7 +7,6 @@ $(".signinbtn").click(function(event) {
     window.location.href = 'studentdashboard.html'; 
 });
 
-
 $(".startbtn").click(function(event){
     window.location.href = 'event.html';
 })
