@@ -1,10 +1,57 @@
-.container{
-    display:flex;
-    height: 100vh;
-    width : 500px;
+body {
+    background-image: url('./images/What-Is-Online-Exam.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat:repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+.container {
+    display:flex; 
     justify-content: center;
     align-items: center;
+    height: 70vh; 
+    width: 40vw;
+    margin-top: 7%;
+    background-color: rgba(0, 0, 0, 0.544); 
+    border-radius: 20px; 
+    padding: 20px; 
+    box-shadow:rgba(0, 0, 0, 0.2);
+    color:hwb(216 54% 2%);
 }
+
+.event-container {
+    height: auto; 
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.818); 
+    padding: 20px; 
+    box-shadow:rgba(0, 0, 0, 0.2);
+    color:rgb(255,255,255);
+}
+
+.createexam-container {
+    height: auto; 
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.818); 
+    padding: 20px; 
+    box-shadow:rgba(0, 0, 0, 0.2);
+    color:rgb(255,255,255);
+}
+
+.examcontainer{
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.544);  
+    padding: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.2);
+    color:rgb(255, 255, 255);
+}
+
 
 .lead{
     text-indent: 0ch;
@@ -36,7 +83,12 @@
     display: block;
 }
 
-.dashboard{
+.studentdashboard{
+    text-align: center;
+    color: #0d6efd;
+}
+
+.teacherdashboard{
     text-align: center;
     color: #0d6efd;
 }
@@ -53,4 +105,95 @@
 .event-head{
     display: flex;
     justify-content: center;
+}
+
+.studentpara{
+    display: grid;
+    grid-auto-columns: auto ;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.785);
+    color: #ffffff;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-label{
+    color:rgb(255, 255, 255);
+}
+
+.h1new{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.startbtn{
+    float: inline-start;
+    width:100px;
+}
+
+.eventnavbar{
+    color: rgb(255, 255, 255);
+}
+
+.eventnavbarcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.createexamnavbarcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.createexamnavbar{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutcontainer{
+    height: auto; 
+    width: auto;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(0, 0, 0, 0.737); 
+    border-radius: 20px; 
+    padding: 20px; 
+    box-shadow:rgba(0, 0, 0, 0.2);
+    color:hwb(0 100% 0%);
+}
+
+.about{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutin{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.aboutintext{
+    display: inline-block;
+  text-align: left;
+
+}
+
+.navstudent{
+    font-size: larger;
+}
+
+.teachercontainer {
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin-top: 7%;
+    background-color: rgba(0, 0, 0, 0.64); 
+    border-radius: 20px; 
+    padding: 20px; 
+    box-shadow:rgba(0, 0, 0, 0.2);
+    color:rgb(255,255,255);
 }
