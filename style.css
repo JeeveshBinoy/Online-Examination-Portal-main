@@ -1,0 +1,56 @@
+.container{
+    display:flex;
+    height: 100vh;
+    width : 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lead{
+    text-indent: 0ch;
+}
+
+.new_user{
+    display: flex;
+}
+.new_student{
+    margin-top: 1rem;
+    display:flex;
+    width : 500px;
+    justify-content: flex-start;
+    text-decoration-line: none;
+}
+
+.new_instructor{
+    margin-top: 1rem;
+    display:flex;
+    width : 500px;
+    justify-content: flex-end;
+    text-decoration-line:none;
+}
+
+
+.register_button{
+    margin-top: 2rem; 
+    text-align: center;
+    display: block;
+}
+
+.dashboard{
+    text-align: center;
+    color: #0d6efd;
+}
+
+.h1login{
+    text-align: center;
+}
+.h3login{
+    text-align: center;
+    font-size: large;
+
+}
+
+.event-head{
+    display: flex;
+    justify-content: center;
+}
